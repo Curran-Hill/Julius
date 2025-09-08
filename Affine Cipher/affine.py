@@ -12,7 +12,7 @@ def encode():
             
     while True:
         b = input("B: ")
-        if b.isdigit() and int(b) % 2 != 0 and int(b) != 13 and int(b) in range(1, 26):
+        if b.isdigit() and int(b) in range(1, 26):
             b = int(b)
             break
         else:

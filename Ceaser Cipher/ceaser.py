@@ -1,9 +1,11 @@
 def ceaser_cipher():
     print("""##INSTRUCTIONS##
 ==============================================
-Decoding and encoding follow the same process:
+Encryption and decryption follow the same process:
 1.) Paste your string into the prompt
 2.) Pick an option out of the 25 possibilities
+
+NOTE: Decryption is done via brute force, you do not need the shift amount if you know what you are looking for
           """)
 
     original_text = input("Paste string here: ")

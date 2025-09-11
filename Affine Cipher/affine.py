@@ -40,4 +40,21 @@ def encode():
         
     return ciphertext
 
-print(encode())
+#print(encode())
+
+def decode():
+
+    ciphertext = input("Paste your ciphertext here: ")
+
+    x_arr = []
+
+    for char in ciphertext:
+        x_arr.append(ord(char))
+
+    for a in range (1,26):
+        if a % 2 != 0 and a != 13:
+            inv_a = 27 / a
+            for b in range (1,26):
+                #inv_a (x-b)%26
+
+decode()

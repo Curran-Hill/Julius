@@ -79,4 +79,4 @@ class AffineCipher:
                             else:
                                 plaintext += char
                     
-                    print(f"Encryption Key 'A':{a} | B:{b} | Decription Key 'Inverse A': {inv_a} | Text: {plaintext} \n")
+                    print(f"Encryption Key 'A':{a} | 'B':{b} | Decription Key 'Inverse A': {inv_a} | Text: {plaintext} \n")
